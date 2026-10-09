@@ -1,9 +1,17 @@
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import Services from "./components/Services";
+import WhyChooseUs from "./components/WhyChooseUs";
+
 export default function App() {
   return (
-    <div className="min-h-screen bg-black flex items-center justify-center">
-      <h1 className="text-4xl font-bold text-white">
-        APEX AUTO WEBSITE WORKING!
-      </h1>
-    </div>
+    <>
+      <Navbar />
+      <main>
+        <Hero />
+        <Services />
+        <WhyChooseUs />
+      </main>
+    </>
   );
 }
